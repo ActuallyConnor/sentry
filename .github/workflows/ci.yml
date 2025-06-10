@@ -38,8 +38,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          file: docker/nakama/Dockerfile
-          target: production
+          file: Dockerfile
           push: true
           tags: |
             ghcr.io/actuallyconnor/sentry:latest
