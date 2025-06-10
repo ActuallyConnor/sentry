@@ -42,5 +42,5 @@ jobs:
           target: production
           push: true
           tags: |
-            ghcr.io/ActuallyConnor/sentry:latest
-            ghcr.io/ActuallyConnor/sentry:${{ github.sha }}
+            ghcr.io/actuallyconnor/sentry:latest
+            ghcr.io/actuallyconnor/sentry:${{ github.sha }}
