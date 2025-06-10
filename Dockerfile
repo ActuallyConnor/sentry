@@ -12,7 +12,7 @@ COPY package*.json .
 #COPY config ./config
 
 # Copy your media.
-COPY media ./media
+#COPY media ./media
 
 # Copy your public files.
 #COPY public ./public
