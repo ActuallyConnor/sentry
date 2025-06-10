@@ -9,4 +9,4 @@ services:
       DB_USER: ${DB_USER}
       DB_NAME: ${DB_NAME}
     ports:
-      - 3200:3000
+      - "3200:3000"
